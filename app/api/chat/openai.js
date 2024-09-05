@@ -1,4 +1,5 @@
 // pages/api/openai.js
+import { OpenAI } from 'openai';
 
 export default async function handler(req, res) {
     const openaiApiKey = process.env.OPENAI_API_KEY;
