@@ -1,5 +1,5 @@
 // app/api/chat/route.js
-import { Configuration, OpenAIApi } from 'openai';
+import { OpenAI } from 'openai'; // For SDK v4.x
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,

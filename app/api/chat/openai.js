@@ -1,4 +1,4 @@
-const { Configuration, OpenAIApi } = require("openai");
+import { OpenAI } from 'openai'; // For SDK v4.x
 
 
 const configuration = new Configuration({
